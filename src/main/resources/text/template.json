@@ -1,0 +1,7 @@
+{
+  "title": "[(${intake_title})]",
+  "subtitle": "[(${intake_subtitle})]",
+  "description": "**Quote** \"[(${intake_description})]\"",
+  "buttonApply": "Apply:[(${intake_id})]",
+  "buttonDecline": "Decline:[(${intake_id})]"
+}

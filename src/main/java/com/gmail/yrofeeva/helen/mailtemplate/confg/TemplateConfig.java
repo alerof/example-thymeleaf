@@ -31,7 +31,7 @@ public class TemplateConfig {
   @Bean
   public ITemplateResolver htmlTemplateResolver() {
     SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
-    templateResolver.setPrefix("classpath:/email/html/");
+    templateResolver.setPrefix("classpath:/html/");
     templateResolver.setSuffix(".html");
     templateResolver.setOrder(1);
     templateResolver.setTemplateMode(TemplateMode.HTML);
@@ -52,5 +52,5 @@ public class TemplateConfig {
     templateResolver.setCacheable(false);
     templateResolver.setCheckExistence(true);
     return templateResolver;
-    }
+  }
 }
